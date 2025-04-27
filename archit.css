@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #F7E7CE;
+    color: #4b2e12;
+}
+
+h2{
+    margin: 20px;
+    margin-bottom: -10px;
+    font-size: 35px;
+    text-align: center;
+}
+#intro{
+    margin: 20px;  
+    width: 60%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin-left: 20%;
+}
+.archit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.archit-style{
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #f9f5ee;
+}
+
+.nag{
+    background-image: url(Temple/temples-khajuraho.jpg);
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.txt p{
+    background-color: #f9f5ee;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 20px;
+}
+.txt a{
+    display: block;
+    text-align: center;
+    background-color: #f9f5ee;
+    color: black;
+    margin-top: -6px;
+}
+
+.drav{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url(Temple/drav.jpg);
+}
+
+.ves{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url(Temple/Vesara1.jpg);
+}
+#ves{
+    display: block;
+    text-align: center;
+    background-color: #f9f5ee;
+    color: black;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #4b2e12;
+ }
+ a:hover{
+    color: #d8620d;
+    text-shadow: #ff9625;
+ }
+ button{
+   height: 40px;
+   width: 80px;
+   border: 1px solid #4b2e12;
+   font-size: small;
+   background-color: #F7E7CE;
+   margin-top: 88px;
+   margin-left: 20px;
+ }
